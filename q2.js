@@ -1,6 +1,7 @@
 function palindromePattern(length) {
   let str = "";
   for (let i = 1; i <= length; i++) {
+    for (let j = 1; j <= length - i; j++) str += " ";
     for (let j = i; j >= 1; j--) {
       str += `${j} `;
     }

@@ -1,8 +1,10 @@
 function targetIndex(arr, target) {
   let newarr = [];
+  arr.sort();
   for (let i = 0; i < arr.length; i++) {
     if (target == arr[i]) newarr.push(i);
   }
+  console.log(arr);
   console.log(newarr);
 }
 

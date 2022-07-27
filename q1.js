@@ -8,4 +8,4 @@ function leaders(arr) {
   console.log(arr[arr.length - 1]);
 }
 
-leaders([1, 2, 3, 8, 6, 5, 4]);
+leaders([1, 2, 3, 8, 2, 5, 4]);
